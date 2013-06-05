@@ -1,4 +1,14 @@
 validJSON
 =========
+Returns either a parsed `{Object}` or `{Boolean} false`.
 
-JSON.parse with a try/catch
+Usage
+-----
+```
+var validjson = require('validjson');
+var str = '{"ok": 2013}';
+var obj = validjson(str);
+if (obj) {
+    console.log(obj);
+}
+```

@@ -1,0 +1,18 @@
+{
+  "name": "validjson",
+  "version": "0.1.0",
+  "description": "JSON.parse with a try/catch",
+  "main": "index.js",
+  "keywords": [
+    "JSON"
+  ],
+  "scripts": {
+    "test" : "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gildean/validJSON.git"
+  },
+  "author": "Olli K.",
+  "license": "BSD"
+}
